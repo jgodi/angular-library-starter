@@ -59,7 +59,7 @@ export default {
 		commonjs({
 			include: [
 				'node_modules/rxjs/**',
-				'node_modules/ng-library-starter/**'
+				'node_modules/angular-library-starter/**'
 			]
 		}),
 		...

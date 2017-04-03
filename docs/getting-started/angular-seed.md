@@ -16,13 +16,13 @@
   // required for dev build
   {
     name:'ng-library-starter',
-    path:'node_modules/ng-library-starter/bundles/ng-library-starter.umd.min.js'
+    path:'node_modules/angular-library-starter/bundles/angular-library-starter.umd.min.js'
   },
 
   // required for prod build
   {
     name:'ng-library-starter/*',
-    path:'node_modules/ng-library-starter/bundles/ng-library-starter.umd.min.js'
+    path:'node_modules/angular-library-starter/bundles/angular-library-starter.umd.min.js'
   },
 
   // mandatory dependency for ng-library-starter datepicker

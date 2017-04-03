@@ -16,7 +16,7 @@ export class Analytics {
     private _enabled: boolean;
 
     public constructor(private location: Location, private router: Router) {
-        this._enabled = window.location.href.indexOf('ng-library-starter') >= 0;
+        this._enabled = window.location.href.indexOf('angular-library-starter') >= 0;
     }
 
     /**

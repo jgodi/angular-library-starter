@@ -45,7 +45,7 @@ const titleDoc = require('html-loader!markdown-loader!./docs/usage.md');
 })
 export class MeowDemoComponent {
     public name = 'Meow';
-    public src = 'https://github.com/jgodi/ng-library-starter/tree/master/src/meow';
+    public src = 'https://github.com/jgodi/angular-library-starter/blob/master/src/meow';
     public titleDoc: string = titleDoc;
     public demos: any = DEMOS;
 }
