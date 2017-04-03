@@ -10,7 +10,6 @@ before_install:
 script:
   - npm run lint
   - npm run test
-  - npm run e2e
 
 after_success:
   - ./node_modules/.bin/codecov
