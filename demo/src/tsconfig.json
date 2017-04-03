@@ -9,6 +9,7 @@
       "dom"
     ],
     "types": [
+      "jasmine",
       "webpack"
     ],
     "mapRoot": "./",

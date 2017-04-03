@@ -1,4 +1,4 @@
-# ng-library-starter [![npm version](https://badge.fury.io/js/angular-library-starter.svg)](http://badge.fury.io/js/angular-library-starter) [![npm downloads](https://img.shields.io/npm/dm/angular-library-starter.svg)](https://npmjs.org/angular-library-starter)[![slack](https://ngx-slack.herokuapp.com/badge.svg)](https://ngx-slack.herokuapp.com)
+# ng-library-starter [![npm version](https://badge.fury.io/js/angular-library-starter.svg)](http://badge.fury.io/js/angular-library-starter) [![npm downloads](https://img.shields.io/npm/dm/angular-library-starter.svg)](https://npmjs.org/angular-library-starter)
 Native Angular2 directives for Bootstrap, works with Bootstrap 3 and 4-alfa
 
 [![Angular 2 Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://angular.io/styleguide)
@@ -20,7 +20,18 @@ Native Angular2 directives for Bootstrap, works with Bootstrap 3 and 4-alfa
 
 # Getting Started
 
-TODO
+```bash
+# clone the repository
+git clone git@github.com:jgodi/angular-library-starter.git
+# install dependencies
+npm install # yarn
+# build the src
+npm run build
+# link the library to demo
+npm run link
+# start the demo
+npm start
+```
 
 # Installation instructions
 
