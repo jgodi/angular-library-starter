@@ -1,5 +1,4 @@
 # ng-library-starter [![npm version](https://badge.fury.io/js/angular-library-starter.svg)](http://badge.fury.io/js/angular-library-starter) [![npm downloads](https://img.shields.io/npm/dm/angular-library-starter.svg)](https://npmjs.org/angular-library-starter)
-Native Angular2 directives for Bootstrap, works with Bootstrap 3 and 4-alfa
 
 [![Angular 2 Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://angular.io/styleguide)
 [![Build Status](https://travis-ci.org/jgodi/angular-library-starter.svg?branch=master)](https://travis-ci.org/jgodi/angular-library-starter)
