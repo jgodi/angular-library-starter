@@ -1,12 +1,12 @@
-# ng-library-starter [![npm version](https://badge.fury.io/js/ng-library-starter.svg)](http://badge.fury.io/js/ng-library-starter) [![npm downloads](https://img.shields.io/npm/dm/ng-library-starter.svg)](https://npmjs.org/ng-library-starter)
+# ng-starter-library [![npm version](https://badge.fury.io/js/ng-starter-library.svg)](http://badge.fury.io/js/ng-starter-library) [![npm downloads](https://img.shields.io/npm/dm/ng-starter-library.svg)](https://npmjs.org/ng-starter-library)
 
 [![Angular 2 Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://angular.io/styleguide)
 [![Build Status](https://travis-ci.org/jgodi/angular-library-starter.svg?branch=master)](https://travis-ci.org/jgodi/angular-library-starter)
 [![codecov](https://codecov.io/gh/jgodi/angular-library-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/jgodi/angular-library-starter)
 [![Dependency Status](https://david-dm.org/jgodi/angular-library-starter.svg)](https://david-dm.org/jgodi/angular-library-starter)
 
-[![NPM](https://nodei.co/npm/ng-library-starter.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.org/ng-library-starter)
-[![NPM](https://nodei.co/npm-dl/ng-library-starter.png?height=3&months=9)](https://npmjs.org/ng-library-starter)
+[![NPM](https://nodei.co/npm/ng-starter-library.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.org/ng-starter-library)
+[![NPM](https://nodei.co/npm-dl/ng-starter-library.png?height=3&months=9)](https://npmjs.org/ng-starter-library)
 
 ## Table of contents
 1. [Getting Started](#getting-started)
