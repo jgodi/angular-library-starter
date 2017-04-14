@@ -30,6 +30,8 @@ npm run build
 npm run link
 # start the demo
 npm start
+# to live-watch the library, in a second terminal run
+npm run build:watch
 ```
 
 # Installation instructions
@@ -41,8 +43,7 @@ npm install ng-library-starter --save
 
 ## How to use it with:
  - `angular-cli` please refer to [getting-started-with-ng-cli](https://github.com/jgodi/angular-library-starter/blob/master/docs/getting-started/ng-cli.md)
- - `angular-seed` please refer to [getting-started-with-angular-seed](https://github.com/jgodi/-library-starter/blob/master/docs/getting-started/angular-seed.md)
- - `plnkr` sample available [here](http://bit.ly/angular-library-starter-plnkr)
+ - `angular-seed` please refer to [getting-started-with-angular-seed](https://github.com/jgodi/angular-library-starter/blob/master/docs/getting-started/angular-seed.md)
  - `AoT using ngc and rollup` please refer to [ng-library-starter-with-aot](https://github.com/jgodi/angular-library-starter/blob/master/docs/getting-started/aot.md)
 
 # Usage & Demo
@@ -51,4 +52,4 @@ Main source of API documentation and usage scenarious available here:
 [http://jgodi.github.io/angular-library-starter/](http://jgodi.github.io/angular-library-starter/)
 
 ## Credits
-Huge thanks to [Valor Software](https://github.com/valor-software) for thier great angular component libraries which this was lifted from as a starter!
+Huge thanks to [Valor Software](https://github.com/valor-software) for their great angular component libraries which this was lifted from as a starter!

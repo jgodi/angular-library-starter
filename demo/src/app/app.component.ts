@@ -1,23 +1,32 @@
+// NG2
 import { AfterContentInit, Component, Inject } from '@angular/core';
 import { NavigationEnd, Router, ActivatedRoute } from '@angular/router';
-
-import { PageScrollConfig, PageScrollService, PageScrollInstance } from 'ng2-page-scroll';
 import { DOCUMENT } from '@angular/platform-browser';
+// Vendor
+import { PageScrollConfig, PageScrollService, PageScrollInstance } from 'ng2-page-scroll';
+// APP
+import { Analytics } from './shared/analytics/analytics';
+
 PageScrollConfig.defaultDuration = 11;
 PageScrollConfig.defaultScrollOffset = 70;
 
 @Component({
     selector: 'app-demo',
-    templateUrl: './app.component.html'
+    templateUrl: './app.component.html',
+    providers: [
+        Analytics
+    ]
 })
 export class AppComponent implements AfterContentInit {
 
     public constructor(private route: ActivatedRoute, private router: Router, private pageScrollService: PageScrollService,
-        @Inject(DOCUMENT) private document: any) {
+        @Inject(DOCUMENT) private document: any, private analytics: Analytics) {
     }
 
-    // almost same logic exists in top-menu component
     public ngAfterContentInit(): any {
+        // setup analytics page views
+        this.analytics.trackPageViews();
+
         const getUrl = (router: Router) => router.routerState.snapshot.url.slice(0, router.routerState.snapshot.url.indexOf('#'));
         let _prev = getUrl(this.router);
         const justDoIt = (event: any): void => {
