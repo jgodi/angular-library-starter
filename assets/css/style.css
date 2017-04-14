@@ -101,7 +101,7 @@ a:hover {
 }
 
 #mobile-main-menu {
-    padding: 24px 15px;
+    padding: 15px 15px;
 }
 
 #mobile-main-menu img {
@@ -472,6 +472,7 @@ a:hover {
         display: flex;
         flex-wrap: nowrap;
         width: 100%;
+        height: 50px;
         border-bottom: 1px solid #191924;
     }
     #top-menu #mobile-main-menu {
@@ -510,7 +511,7 @@ a:hover {
     }
     #main-menu {
         left: -100%;
-        height: calc(100% - 69px);
+        height: calc(100% - 49px);
     }
     .isOpenMenu #main-menu {
         left: 0;
