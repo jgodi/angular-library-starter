@@ -39,12 +39,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jgodi/ng-starter-library.git"
+    "url": "git+ssh://git@github.com/jgodi/angular-library-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/jgodi/ng-starter-library/issues"
+    "url": "https://github.com/jgodi/angular-library-starter/issues"
   },
-  "homepage": "https://github.com/jgodi/ng-starter-library#readme",
+  "homepage": "https://github.com/jgodi/angular-library-starter#readme",
   "peerDependencies": {
     "@angular/common": "^2.3.1 || >=4.0.0",
     "@angular/compiler": "^2.3.1 || >=4.0.0",
