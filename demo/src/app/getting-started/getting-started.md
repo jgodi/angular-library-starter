@@ -1,4 +1,4 @@
-# ng-library-starter  [![npm version](https://badge.fury.io/js/ng-starter-library.svg)](http://badge.fury.io/js/ng-library-starter) [![npm downloads](https://img.shields.io/npm/dm/ng-library-starter.svg)](https://npmjs.org/ng-library-starter) [![Angular Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://angular.io/styleguide)
+# ng-library-starter  [![npm version](https://badge.fury.io/js/ng-starter-library.svg)](http://badge.fury.io/js/ng-library-starter) [![npm downloads](https://img.shields.io/npm/dm/ng-starter-library.svg)](https://npmjs.org/ng-starter-library) [![Angular Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://angular.io/styleguide)
 
 Component library created for Angular!
 
