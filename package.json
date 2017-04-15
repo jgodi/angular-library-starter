@@ -10,20 +10,20 @@
     "demo:build": "ng build -prod --aot",
     "demo:deploy": "gh-pages -d demo/dist",
     "demo:gh-pages": "run-s demo:build demo:deploy",
-    "disable-lint": "tslint \"**/*.ts\" -c tslint.json --fix --type-check -t prose -e \"node_modules/**\" -e \"dist/**\" -e \"temp/**\" -e \"scripts/docs/**\"",
     "e2e": "protractor",
     "git-add": "git add -A",
     "git-commit-ammend": "git commit --amend --no-edit -n",
     "github-release": "conventional-github-releaser -p angular",
     "link": "ngm link -p src --here",
     "lint": "tslint \"**/*.ts\" -c tslint.json --type-check -t prose -e \"node_modules/**\" -e \"dist/**\" -e \"temp/**\" -e \"scripts/docs/**\"",
+    "link:fix": "tslint \"**/*.ts\" -c tslint.json --fix --type-check -t prose -e \"node_modules/**\" -e \"dist/**\" -e \"temp/**\" -e \"scripts/docs/**\"",
     "postversion": "run-s changelog git-add git-commit-ammend",
     "precommit": "npm run lint",
     "pree2e": "webdriver-manager update",
     "prelink": "npm run build",
     "start": "ng serve --host 0.0.0.0",
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "test": "karma start",
+    "test:watch": "karma start",
     "view-stats": "webpack-bundle-analyzer demo/dist/stats.json"
   },
   "main": "bundles/ng-starter-library.umd.js",
@@ -86,8 +86,16 @@
     "jasmine-core": "2.5.2",
     "jasmine-data-provider": "2.2.0",
     "jasmine-spec-reporter": "3.2.0",
-    "jest": "^19.0.2",
-    "jest-preset-angular": "^0.0.7",
+    "karma": "1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-coverage-istanbul-reporter": "^1.1.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-remap-istanbul": "0.6.0",
+    "karma-sauce-launcher": "1.1.0",
+    "karma-typescript": "^3.0.0",
+    "karma-typescript-angular2-transform": "^1.0.0",
     "lodash": "4.17.4",
     "markdown-loader": "2.0.0",
     "marked": "0.3.6",
@@ -106,40 +114,5 @@
     "webdriver-manager": "12.0.4",
     "webpack-bundle-analyzer": "2.3.1",
     "zone.js": "0.7.7"
-  },
-  "jest": {
-    "globals": {
-      "__TS_CONFIG__": "src/tsconfig.json",
-      "__TRANSFORM_HTML__": true
-    },
-    "transform": {
-      "^.+\\.(ts|js|html)$": "<rootDir>/node_modules/jest-preset-angular/preprocessor.js"
-    },
-    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
-    "moduleFileExtensions": [
-      "ts",
-      "js",
-      "html"
-    ],
-    "moduleNameMapper": {
-      "app/(.*)": "<rootDir>/src/app/$1",
-      "environments/(.*)": "<rootDir>/src/environments/$1"
-    },
-    "transformIgnorePatterns": [
-      "node_modules/(?!@ngrx)"
-    ],
-    "setupTestFrameworkScriptFile": "<rootDir>/scripts/setupJest.ts",
-    "collectCoverage": true,
-    "coveragePathIgnorePatterns": [
-      "/node_modules/",
-      "/scripts/"
-    ],
-    "coverageReporters": [
-      "text",
-      "text-summary",
-      "json",
-      "lcov"
-    ],
-    "notify": true
   }
 }
