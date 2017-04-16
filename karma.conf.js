@@ -33,6 +33,12 @@ module.exports = function (config) {
         autoWatch: WATCH,
         client: {
             captureConsole: true
+        },
+        customLaunchers: {
+            Chrome_travis_ci: {
+                base: 'Chrome',
+                flags: ['--no-sandbox']
+            }
         }
     };
 
