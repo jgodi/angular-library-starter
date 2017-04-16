@@ -1,5 +1,5 @@
 {
-  "name": "ng-starter-library",
+  "name": "ng-starter-library-base",
   "version": "1.0.0",
   "description": "Angular Starter Library for Libraries",
   "private": true,
