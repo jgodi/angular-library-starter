@@ -23,7 +23,10 @@ module.exports = function (config) {
             },
             compilerOptions: {
                 lib: ['ES2015', 'DOM']
-            }
+            },
+            exclude: [
+                "demo"
+            ]
         },
         reporters: ['progress', 'karma-typescript'],
         browsers: ['Chrome'],
